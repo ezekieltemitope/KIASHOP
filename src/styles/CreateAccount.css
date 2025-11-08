@@ -1,0 +1,120 @@
+/* Import Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Reset body */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #ffe4e1;
+}
+
+/* Container card */
+.create-account-container {
+  background-color: #ffffff;
+  padding: 2.5rem 2rem; /* increased padding for bigger layout */
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px; /* bigger size */
+  margin: 20px auto;
+}
+
+/* Form title */
+.create-account-container h4 {
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+/* Form description */
+.create-account-container p {
+  font-size: 14px;
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+}
+
+/* Input fields */
+.create-account-container input.form-control {
+  border-radius: 12px;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+}
+
+/* Input focus */
+.create-account-container input.form-control:focus {
+  outline: none;
+  border-color: #0A5C2E;
+  box-shadow: 0 0 0 0.2rem rgba(10, 92, 46, 0.25);
+}
+
+/* Input group icons */
+.input-group-text {
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Buttons */
+.create-account-container .btn {
+  border-radius: 12px;
+  font-size: 18px;
+  padding: 12px 0;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.create-account-container .btn:hover {
+  background-color: #0d7d39; /* slightly darker green on hover */
+}
+
+/* Divider text */
+.create-account-container p.text-center {
+  font-size: 14px;
+  color: #6c757d;
+  margin: 1rem 0;
+}
+
+/* Social icons container */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.social-icons div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #ced4da;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.social-icons div:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+.create-account-container .footer-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.create-account-container .footer-text span {
+  color: #0A5C2E;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.create-account-container .footer-text span:hover {
+  text-decoration: underline;
+}
